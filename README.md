@@ -2,7 +2,7 @@
 ___
 ### :pushpin: ***Project description*** :pushpin:
 ***Web-application that supports user registration, authentication, authorization
-and other CRUD operations with movies, movie sessions, cinema halls, orders, shopping carts and tickets***
+and CRUD operations with movies, movie sessions, cinema halls, orders, shopping carts and tickets***
 ___
 ### :bookmark: ***Features:*** :bookmark:
 + :pencil2: ***register, authenticate, authorize a user***
@@ -14,7 +14,7 @@ ___
 + :notebook: ***create/read an order***
 ___
 ### :open_file_folder: ***Structure:*** :open_file_folder:
-+ ***Controller - accepts requests from the user, passes them to the service layer***
++ ***Controller - accepts requests from the client, passes them to the service layer***
 + ***Service - accepts requests from the controller, passes them to the DAO layer and performs all business logic***
 + ***DAO - accepts requests from the service, passes them to the DB and executes all sql queries***
 ___
@@ -30,7 +30,7 @@ ___
 - [x] ***Fork this project to your repository***
 - [x] ***Press "Code" and choose HTTPS or SSH url to clone the project***
 - [x] ***Create new project from Version Control and write this url***
-- [x] ***Write your properties to ConnectionUtil class***
+- [x] ***Write your properties to db.properties file***
 ```java
         db.driver="YOUR_DATABASE_DRIVER"
         db.url="YOUR_DATABASE_URL"
